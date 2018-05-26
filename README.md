@@ -1,10 +1,10 @@
-# Cluey Learning Portal Product
+# Learning Portal Product
 ---
 ***Project Description:*** v.01-mwybrow
 >This project is basically a loosely coupled front end, which will eventually replace the current Salesforce interface. Design with intention of absorbing exposed Salesforce API's currently used in the Salesforce Application Portal.
 
 ### Setting up On Local dev environment
-As with many technologies, it’s vital to have the proper foundation set up first, before moving on to solving more complex problems. 
+As with many technologies, itâ€™s vital to have the proper foundation set up first, before moving on to solving more complex problems. 
 - Please ensure you have Node & Yarn or Npm installed.
 ### Install Steps
 - Download with Git:
@@ -23,7 +23,7 @@ git clone git@bitbucket.org:username/portalproduct-react.git ...
 - example
 ```
 "companyInfo": {
-        "companyName": "ClueyLearning",
+        "companyName": "Learning",
         "companyMotto": "Learning Changes Lives!",
         "companyEst": "2017-10-30T11:31:03.684Z"
  }, ...

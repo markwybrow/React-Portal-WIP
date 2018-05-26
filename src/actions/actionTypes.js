@@ -1,0 +1,2 @@
+export const FETCH_ACTION = 'FETCH_ACTION';
+export const RECEIVE_ACTION = 'RECEIVE_ACTION';

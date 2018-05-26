@@ -1,0 +1,169 @@
+:root {
+    --body-bg-color: #fff;
+    --background-color-lightwarmgrey: #f4f3f0;
+    --table-header-bg-color: #f7f7f7;
+    --color: #2d373e;
+    --color-second: #32323a;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: var(--font-color);
+    margin: 0;
+    background-color: var(--body-bg-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.header {
+    background-color: #223;
+    border-bottom: 1px solid gray;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    grid-column: span 12;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cBrandingLogo {
+    background-image: url(/images/clueylogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    display: block;
+    outline: 0;
+    width: 147px;
+    height: 3rem;
+}
+
+.pageHeader {
+    border-bottom: 1px solid;
+    margin: 150px 20px 10px 20px;
+    padding-bottom: 0px;
+}
+
+.App {
+    clear: both;
+}
+
+.wrapper {
+    display: grid;
+    /* grid-template-columns: repeat(12, 1fr);*/
+    grid-template-rows: 40px 100px;
+    clear: both;
+    text-align: center;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.content {
+    grid-column: span 12;
+    width: 100%;
+    clear: both;
+}
+
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* cards */
+
+.cCard-footer {
+    margin-top: 20px;
+}
+
+.cl-link_actions {
+    display: flex;
+}
+
+.cLink,
+.cLink-first {
+    margin-right: 20px;
+}
+
+.cLink-last {
+    margin-left: auto;
+}
+
+a.cActive {
+    font-weight: bold;
+    color: #f90;
+}
+
+@media screen and (max-width: 1124px) {
+    header {
+        position: relative;
+    }
+    .pageHeader {
+        grid-area: pageHeader;
+        grid-column: span 1;
+        border-bottom: 1px solid;
+        margin: 30px 20px 0 20px;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-rows: 10px 100%;
+        grid-template-columns: 100%;
+        grid-template-areas: "pageHeader" "content";
+        margin-top: 90;
+        /* margin-left: 28%;
+        margin-right: auto; */
+    }
+    .content {
+        grid-area: content;
+        grid-column: span 1;
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        margin: 0 0;
+    }
+    header {
+        height: 90px;
+        overflow: auto;
+        padding: 0px 10px;
+        top: 0;
+    }
+    .header {
+        grid-column: span 6;
+    }
+    .header h1 {
+        line-height: 10px;
+    }
+    .wrapper {
+        display: grid;
+        clear: both;
+        transition: all 1s;
+        -moz-transition: all 1s;
+        -o-transition: all 1s;
+        -webkit-transition: all 1s;
+    }
+    .pageHeader {
+        grid-area: pageHeader;
+        grid-column: span;
+        border-bottom: 1px solid;
+        margin: 0 20px;
+    }
+    .content {
+        grid-column: span;
+    }
+}
+
+.br {
+    border: 2px solid red;
+}

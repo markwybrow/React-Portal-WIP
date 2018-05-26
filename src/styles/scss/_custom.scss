@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+// Start with assigning color names to specific hex values.
+$white: #FFFFFF !default;
+$black: #32323A !default;
+$red: #d9534f !default;
+$orange: #F8A100 !default;
+$yellow: #ffd500 !default;
+$green: #6BBAA7 !default;
+$blue: #77C9D4 !default;
+$teal: #6BBAA7 !default;
+$pink: #ff5b77 !default;
+$purple: #613d7c !default;
+// Create grayscale
+$gray-dark: #32323A !default;
+$gray: #4D4D59 !default;
+$gray-light: #9797A1 !default;
+$gray-lighter: #E4E4ED !default;
+$gray-lightest: #EDEDF7 !default;
+// Reassign color vars to semantic color scheme
+$brand-primary: $blue !default;
+$brand-success: $green !default;
+$brand-info: $teal !default;
+$brand-warning: $orange !default;
+$brand-danger: $red !default;
+$brand-inverse: $gray-dark !default;
+// components
+$border-radius: 2px;
+// css vars
+:root {
+    --blue: #325D88;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #d9534f;
+    --orange: #F47C3C;
+    --yellow: #ffc107;
+    --green: #6BBAA7;
+    --teal: #6BBAA7;
+    --cyan: #29ABE0;
+    --white: #fff;
+    --gray: #8E8C84;
+    --gray-dark: #3E3F3A;
+    --primary: #325D88;
+    --secondary: #8E8C84;
+    --success: #93C54B;
+    --info: #29ABE0;
+    --warning: #F47C3C;
+    --danger: #d9534f;
+    --light: #F8F5F0;
+    --dark: #3E3F3A;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}

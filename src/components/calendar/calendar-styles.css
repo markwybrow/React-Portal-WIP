@@ -1,0 +1,12 @@
+	#calendar {
+	    width: 900px;
+	    border: 1px solid #ccc;
+	    border-radius: 2px;
+	    background-color: #ffffff;
+	    margin: 10px auto;
+	}
+	
+	#calendar:hover {
+	    filter: grayscale(0);
+	    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	}

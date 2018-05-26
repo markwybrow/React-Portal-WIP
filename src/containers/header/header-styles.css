@@ -1,0 +1,17 @@
+.header {
+    background-color: #223;
+    border-bottom: 1px solid gray;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    grid-column: span 12;
+    z-index: 10;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
